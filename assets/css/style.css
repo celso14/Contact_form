@@ -65,6 +65,9 @@ form{
     justify-content: center;
     align-items: center
 }
+form h1{
+    font-size: 32px;
+}
 .form_text{
     width: 60%;
     padding: 10px;
@@ -138,5 +141,10 @@ button{
     }
     input[type=textarea]{
         width: 70%;
+    }
+}
+@media (max-width:770px){
+    main{
+        height: 100%;
     }
 }
